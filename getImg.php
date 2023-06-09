@@ -1,7 +1,7 @@
 <?php
-    const CLIENT_ID = '31acc302ac1049b188069b8f2dadde01';
-    const CLIENT_SECRET = 'f7dd3871fc4246bcaed19a0d50b7ac1e';
-    const REDIRECT_URI = 'http://localhost:8888/';
+    const CLIENT_ID = '';
+    const CLIENT_SECRET = '';
+    const REDIRECT_URI = '';
     
     $artist = $_GET['artist'];
     
