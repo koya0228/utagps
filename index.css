@@ -1,0 +1,115 @@
+:root {
+	--top-color: lightblue;
+	--back-color: #ffffff;
+}
+
+.no-display {
+	display: none;
+}
+
+body {
+	margin: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+#header-top {
+	height: 8vh;
+	background-color: var(--top-color);
+}
+#prefecture {
+	text-align: center;
+}
+#pre-button {
+	background-color: var(--top-color);
+	border: none;
+	font-size: 7vw;
+	color: #000000;
+}
+#map-canvas {
+	width: 100%;
+	height: 67vh;		
+}
+#artist-list-top {
+	width: 100%;
+	height: 25vh;
+	overflow-x: scroll;
+}
+#artist-list {
+	width: 100%;
+	height: 12.5vh;
+	display: flex;
+}
+#artist-box {
+	height: 100%;
+	background-color: var(--back-color);
+	border: none;
+	color: #000000;
+}
+#artist-img {
+	width: 9vh;
+	height: 9vh;
+}
+#m-artist-name {
+	font-size: 2vw;
+	margin: 0;
+	overflow: hidden;	
+}
+#a-artist-name {
+	font-size: 2.5vh;
+}
+#artist-display, #prefecture-display {
+	padding-left: 4vw;
+	padding-right: 4vw;
+}
+#a-track-box {
+	padding-left: 4vw;
+	border-top: solid 0.1vh #666666;	
+}
+#a-track-name {
+	font-size: 4.6vw;
+	margin-top: 0.5vh;
+	margin-bottom: 0;
+	padding-top: 0.5vh;
+}
+#a-track-spotify, #a-track-preview {
+	font-size: 3.6vw;
+	background-color: var(--back-color);
+	border: none;
+	color: #4d5a49;
+}
+#a-track-spotify{
+	margin-right: 3vw;
+}
+#a-track-link {
+	margin-bottom: 0.5vh;
+	margin-left: 2vw;
+}
+#exit-art {
+	margin-top: 1.8vh;
+	margin-bottom: 1vh;
+	font-size: 4vw;
+	background-color: var(--back-color);
+	border: none;
+	color: #000000;
+}
+#spotify-icon {
+	height: 1.5vh;
+	margin-right: 0.4vh;
+	padding-top: 1.8vh;
+}
+
+.load-class {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	line-height: 100vh;
+	background-color: #00000070;
+	top: 0;
+}
+#load-text{
+	font-size: 6vw;
+	color: #ffffff;
+	margin-top: auto;
+	margin-bottom: auto;
+}
